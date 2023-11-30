@@ -1,7 +1,9 @@
 # ITentikaTest
 ![architecture](https://github.com/AntonZyuzin/ITentikaTest/assets/71172648/41df2753-3322-45b1-ae62-e888e31d6c15)
-Для запуска базы данных с помощью code first необходимо выполнить следующие команды в PM console
 
+
+# Настройка БД:
+Для запуска базы данных с помощью code first необходимо выполнить следующие команды в PM console:
 EntityFrameworkCore\Enable-migration
 EntityFrameworkCore\Add-Migration MigrationName
 EntityFrameworkCore\Update-Database
