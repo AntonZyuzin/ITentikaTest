@@ -1,7 +1,16 @@
 # ITentikaTest
 ![architecture](https://github.com/AntonZyuzin/ITentikaTest/assets/71172648/41df2753-3322-45b1-ae62-e888e31d6c15)
+Для запуска базы данных с помощью code first необходимо выполнить следующие команды в PM console
 
- 
+EntityFrameworkCore\Enable-migration
+EntityFrameworkCore\Add-Migration MigrationName
+EntityFrameworkCore\Update-Database
+
+Класс для настройки DbContext:
+ITentikaTest\Domain\Data\AppDbContext.cs
+
+
+# Условие тестового задания:
 Цель: Разработать систему генерации и обработки событий, с последующей генерацией и хранением инцидентов на основании их.
 (например, инциденты системы безопасности на основе событий от камер, датчиков и пр.)
 
