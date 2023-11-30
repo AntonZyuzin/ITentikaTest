@@ -4,9 +4,9 @@
 
 # Настройка БД:
 Для запуска базы данных с помощью code first необходимо выполнить следующие команды в PM console:
-EntityFrameworkCore\Enable-migration
-EntityFrameworkCore\Add-Migration MigrationName
-EntityFrameworkCore\Update-Database
+- EntityFrameworkCore\Enable-migration
+- EntityFrameworkCore\Add-Migration MigrationName
+- EntityFrameworkCore\Update-Database
 
 Класс для настройки DbContext:
 ITentikaTest\Domain\Data\AppDbContext.cs
